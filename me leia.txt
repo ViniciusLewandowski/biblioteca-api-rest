@@ -1,0 +1,59 @@
+Sistema de Biblioteca - API REST
+
+Aplicação desenvolvida com Spring Boot para gerenciamento de uma biblioteca por meio de API REST.
+
+Tecnologias
+
+Java 17
+
+Spring Boot
+
+Spring Data JPA
+
+Hibernate
+
+MySQL
+
+Maven
+
+Funcionalidades
+
+Cadastro de livros
+
+Cadastro de usuários
+
+Empréstimo de livros
+
+Devolução de empréstimos
+
+Controle automático de estoque
+
+Persistência em banco de dados
+
+Arquitetura
+
+Controller (camada de entrada HTTP)
+
+Service (regras de negócio)
+
+Repository (acesso a dados)
+
+Model/Entity (mapeamento JPA)
+
+Como Executar
+
+Criar o banco de dados no MySQL:
+
+CREATE DATABASE biblioteca;
+
+
+Configurar o application.properties com usuário e senha do banco.
+
+Executar a classe principal:
+
+BibliotecaApplication
+
+
+A aplicação será iniciada em:
+
+http://localhost:8080
